@@ -1,0 +1,68 @@
+// ***MAIN COLORS***
+$color-white: #ffffff;
+$color-lightest-grey: #ebfffa;
+$color-message-border: #e8e8e8;
+$color-light-grey: #e5e8e7;
+$color-light-blue: #eefcf9;
+$color-chat-input: #ecf0f0;
+$color-sky: #cdd0d0;
+$color-blue: #c0dfd7;
+$color-grey: #a5bab6;
+$color-dark-grey: #1f2625;
+$color-input-focused: #61E4BD;
+$color-link: #00CC9B;
+$color-link-pressed: #009A75;
+$color-primary-base: #4effed;
+$color-primary-highlight: #61E4BD;
+$color-icon-default: #3e4c4b;
+$color-icon-negative: #e6674e;
+$color-header-background: #256c65;
+$color-surface-lightest: #F4FFF9;
+$color-surface-background: #f1f1f1;
+$color-lighter-grey: #E8F0ED;
+$color-main-background: #f5f5f5;
+$color-surface-light: #9AFECE;
+$color-texting-dots: #dbeae9;
+$input-disabled-halftone: #e6e6e6;
+
+// ***SHADOWS COLORS***
+$color-shadow: rgba(20, 20, 20, 0.08);
+$color-shadow-settings: rgba(20, 20, 20, 0.04);
+$color-shadow-filter: rgba(20, 20, 20, 0.06);
+$color-shadow-modal: rgba(77, 103, 97, 0.6);
+$color-shadow-chat: rgba(0, 0, 0, 0.08);
+$color-shadow-indicator: rgba(230, 103, 78, 0.3);
+
+// ***BUTTONS COLORS***
+$color-button-disabled-halftone: #61E495;
+$color-button-primary: #61E495;
+$color-button-primary-pressed: #38EEC2;
+
+// ***TEXT COLORS***
+$color-text-disabled: #6f7b76;
+$color-text-lighter: #727a78;
+$color-text-secondary: #657E78;
+$color-text-grey: #4c5251;
+$color-text-black-grey: #3d6055;
+$color-text-darkest: #090a0a;
+$color-text-black: #000000;
+$color-text-skip: #00ffae;
+$color-text-accent: #2c2d2d;
+
+// ***FONT-SIZES***
+$font-size-label: 12px;
+$font-size-body: 14px;
+$font-size-regular: 16px;
+$font-size-h3: 18px;
+$font-size-h2: 24px;
+$font-size-h1: 32px;
+
+// ***DIMENSIONS***
+$button-size: 52px;
+$button-size-small: 40px;
+$header-height: 56px;
+$chat-form-height: 64px;
+$main-container-width: 375px;
+
+$transition-duration: 0.3s;
+$transition-duration-fast: 0.1s;
