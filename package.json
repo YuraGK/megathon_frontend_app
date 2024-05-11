@@ -7,13 +7,12 @@
   },
   "scripts": {
     "link":"npm link @angular/cli",
-    "ng": "ng",
+
     "start": "ng serve -o --port 3355",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
-    "heroku-postbuild": "ng build --prod"
+    "lint": "ng lint"
   },
   "husky": {
     "hooks": {
