@@ -38,7 +38,7 @@ export class WsService {
       this.reactSocket$ = new WebSocket(`${BASE_URL}?userId=${userId}`);
       this.reactSocket$.addEventListener('open', () => {console.log('ReactWebSocket connected succesfully');})
       this.reactSocket$.addEventListener('close', () => {console.log('ReactWebSocket connection ended succesfully');})
-      this.reactSocket$.addEventListener('message', () => {console.log('ReactWebSocket Sent message');})
+      this.reactSocket$.addEventListener('message', () => {console.log('ReactWebSocket Sent message');this.connect(userId, { reconnect: true });})
     }
     //this.reactSocket$ = useRef<WebSocket>(new WebSocket(BASE_URL));
     //this.reactSocket$.current?.addEventListener('open', () => {console.log('ReactWebSocket connected succesfully')})
