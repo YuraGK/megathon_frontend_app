@@ -6,10 +6,10 @@ const compression = require('compression');
 const app = express();
 app.use(compression());
 
-app.use(express.static(__dirname + 'dist/social_network'));
+app.use(express.static(__dirname + '/dist/social_network'));
 
 app.get('*', (req,resp)=>{
-    resp.sendFile(__dirname+'dist/social_network/index.html')
+    resp.sendFile(__dirname+'/dist/social_network/index.html')
 })
 
 const port = process.env.PORT || 8080;
