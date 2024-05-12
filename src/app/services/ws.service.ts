@@ -102,8 +102,8 @@ export class WsService {
   }) {
     console.log("Message to send: "+msg.Message);
     const body = JSON.stringify({action: 'send', message: msg});
-    this.socket$?.next(body);// THIS POS DOES NOT SEND ANYTING!!!
-    console.log("Message was sent");// LIES!!!
+    //this.socket$?.next(body);// THIS POS DOES NOT SEND ANYTING!!!
+    //console.log("Message was sent");// LIES!!!
     //this.socket$.next(body);
     //if (this.reactSocket$?.current){
     //  this.reactSocket$?.current.send(body);
