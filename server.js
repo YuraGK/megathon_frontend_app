@@ -12,8 +12,8 @@ app.get('*', (req,resp)=>{
     resp.sendFile(__dirname+'dist/social-network/index.html')
 })
 
-const port = http.createServer(app);
+const port = process.env.PORT || 8080;
 app.set('port',port);
 
-const server = process.env.PORT || 8080;
+const server = http.createServer(app);
 server.listen(port,()=>console.log(`server start $(port)`));
